@@ -1,5 +1,7 @@
 # SSPanel-Mining
 
+## copy [https://github.com/QIN2DIM/sspanel-mining](https://github.com/QIN2DIM/sspanel-mining)
+
 采集、清洗、分类、存储暴露在公网上的 [SSPanel-Uim](https://github.com/Anankke/SSPanel-Uim) 站点
 
 ## :airplane:快速上手
