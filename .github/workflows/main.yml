@@ -10,9 +10,8 @@ on:
 #      - "README.md"
 #      - "LICENSE"
 #      - ".gitignore"
-  #   一天运行两次
-  schedule:
-    - cron: '25 12 */7 * *'
+#  schedule:
+#    - cron: '25 12 */7 * *'
 
 jobs:
   build:
