@@ -1,0 +1,60 @@
+name: V2RSS Mining
+
+on:
+  workflow_dispatch:
+#  push:
+#    branches:
+#      - main
+#    paths-ignore:
+#      - ".github/**"
+#      - "README.md"
+#      - "LICENSE"
+#      - ".gitignore"
+  #   一天运行两次
+  schedule:
+    - cron: '25 12 */7 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+    steps:
+      # ============================================
+      # TODO [√] 检查工作分支及 Workflows 运行环境
+      # ============================================
+      - uses: actions/checkout@v2
+      # ============================================
+      # TODO [√] 创建 Python3.6+ 编译环境
+      # ============================================
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      # ============================================
+      # TODO [√] 安装 Project 第三方依赖
+      # ============================================
+      - name: Install dependencies
+        run: |
+          sudo apt install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Scaffold Install
+        run: |
+          cd src && python main.py install
+      # ============================================
+      # TODO [√] 测试 Scaffold 脚手架指令
+      # ============================================
+      - name: Scafflod Mining
+        run: |
+          cd src && python main.py mining --env=production --collector --classifier --source=local
+      # ============================================
+      # TODO [√] 更新仓库数据
+      # ============================================
+      - name: Setup GIT user
+        uses: fregante/setup-git-user@v1
+      - name: Push
+        run: |
+          git add .
+          git commit -m "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${{ env.TZ }}"
+          git push -u origin main
