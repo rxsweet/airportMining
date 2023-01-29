@@ -226,3 +226,18 @@
 2022-09-16 17:36:37.441 | ERROR    | services.sspanel_mining.sspanel_classifier:control_driver:203 - 流量阻断 - [220/220] url=https://airleap.pw/auth/register
 2022-09-16 17:36:40.263 | ERROR    | services.sspanel_mining.sspanel_classifier:control_driver:230 - 响应超时 - [220/220] url=https://feisucloud.net/auth/register
 2022-09-16 17:36:40.265 | SUCCESS  | apis.scaffold.mining:preview:186 - 清洗完毕 - path=/home/runner/work/airportMining/airportMining/src/database/sspanel_hosts/classifier/mining_2022-09-16 17-36-40.csv
+2023-01-29 15:12:56.940 | DEBUG    | apis.scaffold.install:run:47 - 正在下载系统依赖
+2023-01-29 15:12:56.940 | DEBUG    | apis.scaffold.install:_download_driver:26 - 适配 ChromeDriver...
+2023-01-29 15:12:57.746 | SUCCESS  | apis.scaffold.install:run:53 - 系统依赖下载完毕
+2023-01-29 15:13:08.033 | DEBUG    | services.sspanel_mining.sspanel_classifier:__init__:17 - 本机代理状态 PROXY={}
+2023-01-29 15:13:08.136 | WARNING  | services.sspanel_mining.sspanel_classifier:_fall_danger:130 - 危险通信 - [__pending__] url=http://v2cloud.site/auth/register
+2023-01-29 15:13:08.518 | CRITICAL | services.sspanel_mining.sspanel_classifier:control_driver:211 - 危险通信 - [10/10] url=https://103.172.116.172/auth/register
+2023-01-29 15:13:09.002 | SUCCESS  | services.sspanel_mining.sspanel_classifier:_fine_node:121 - 实例正常 - [10/10] url=https://www.shidongli133.xyz/auth/register
+2023-01-29 15:13:09.014 | ERROR    | services.sspanel_mining.sspanel_classifier:control_driver:203 - 流量阻断 - [10/10] url=https://quanquanvip.top/auth/register
+2023-01-29 15:13:09.021 | SUCCESS  | services.sspanel_mining.sspanel_classifier:_fine_node:121 - 实例正常 - [10/10] url=https://my.fyy.pw/auth/register
+2023-01-29 15:13:09.028 | SUCCESS  | services.sspanel_mining.sspanel_classifier:_fine_node:121 - 实例正常 - [10/10] url=https://88xxa.one/auth/register
+2023-01-29 15:13:09.081 | SUCCESS  | services.sspanel_mining.sspanel_classifier:_fine_node:121 - 实例正常 - [10/10] url=https://少数人.moe/auth/register
+2023-01-29 15:13:09.128 | INFO     | services.sspanel_mining.sspanel_classifier:_fall_register_limit_by_email:75 - 限制注册 - [10/10] url=https://getluffy.asia/auth/register
+2023-01-29 15:13:09.439 | ERROR    | services.sspanel_mining.sspanel_classifier:_fall_status:39 - 请求异常 - [10/10] url=https://by1.qqdou.cyou/auth/register
+2023-01-29 15:13:10.027 | INFO     | services.sspanel_mining.sspanel_classifier:_fall_register_limit_by_email:75 - 限制注册 - [10/10] url=https://miru.cloud/auth/register
+2023-01-29 15:13:10.028 | SUCCESS  | apis.scaffold.mining:preview:186 - 清洗完毕 - path=/home/runner/work/airportMining/airportMining/src/database/sspanel_hosts/classifier/mining_2023-01-29 15-13-10.csv
