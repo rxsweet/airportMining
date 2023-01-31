@@ -1,10 +1,10 @@
-http://v2cloud.site/auth/register
-https://88xxa.one/auth/register
-https://www.shidongli133.xyz/auth/register
-https://my.fyy.pw/auth/register
-https://www.ssrmo.co/auth/register
-https://getluffy.asia/auth/register
 https://少数人.moe/auth/register
 https://miru.cloud/auth/register
+https://getluffy.asia/auth/register
 https://by1.qqdou.cyou/auth/register
+https://my.fyy.pw/auth/register
+https://www.shidongli133.xyz/auth/register
+http://v2cloud.site/auth/register
 https://103.172.116.172/auth/register
+https://88xxa.one/auth/register
+https://www.ssrmo.co/auth/register
