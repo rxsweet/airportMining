@@ -109,14 +109,15 @@ class SSPanelHostsCollector:
 
         # 全量搜集
         self._QUERY = 'inurl:staff "SSPanel V3 Mod UIM"'
-"""
-        self.GOOGLE_SEARCH_API = (
-            f'https://www.google.com/search?q="{self._QUERY}"&filter=0'
-        )
-"""
+        
         self.GOOGLE_SEARCH_API = (
             f'https://fsoufsou.com/search?q="{self._QUERY}"&pageIndex=0'
         )
+        """
+        self.GOOGLE_SEARCH_API = (
+            f'https://www.google.com/search?q="{self._QUERY}"&filter=0'
+        )
+        """
         self.path_file_txt = path_file_txt
         self.debug = debug
         self.silence = silence
