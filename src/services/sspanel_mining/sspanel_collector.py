@@ -115,7 +115,7 @@ class SSPanelHostsCollector:
         )
 """
         self.GOOGLE_SEARCH_API = (
-            f'https://fsoufsou.com/search?q="{self._QUERY}"&tbn=all'
+            f'https://fsoufsou.com/search?q="{self._QUERY}"&pageIndex=0'
         )
         self.path_file_txt = path_file_txt
         self.debug = debug
