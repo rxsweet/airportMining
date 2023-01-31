@@ -22,3 +22,5 @@
 2023-01-29 15:13:09.439 | ERROR    | services.sspanel_mining.sspanel_classifier:_fall_status:39 - 请求异常 - [10/10] url=https://by1.qqdou.cyou/auth/register
 2023-01-30 14:38:31.980 | CRITICAL | services.sspanel_mining.sspanel_classifier:control_driver:211 - 危险通信 - [10/10] url=https://103.172.116.172/auth/register
 2023-01-30 14:38:32.744 | ERROR    | services.sspanel_mining.sspanel_classifier:_fall_status:39 - 请求异常 - [10/10] url=https://by1.qqdou.cyou/auth/register
+2023-01-31 15:58:22.596 | CRITICAL | services.sspanel_mining.sspanel_classifier:control_driver:211 - 危险通信 - [10/10] url=https://103.172.116.172/auth/register
+2023-01-31 15:58:23.552 | ERROR    | services.sspanel_mining.sspanel_classifier:_fall_status:39 - 请求异常 - [10/10] url=https://by1.qqdou.cyou/auth/register
