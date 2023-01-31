@@ -111,7 +111,7 @@ class SSPanelHostsCollector:
         self._QUERY = 'inurl:staff "SSPanel V3 Mod UIM"'
 
         self.GOOGLE_SEARCH_API = (
-            f'https://www.google.com.hk/search?q="{self._QUERY}"&filter=0'
+            f'https://www.google.com/search?q="{self._QUERY}"&filter=0'
         )
         self.path_file_txt = path_file_txt
         self.debug = debug
