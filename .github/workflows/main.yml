@@ -4,14 +4,12 @@ on:
   workflow_dispatch:
 #  push:
 #    branches:
-#      - main
-#    paths-ignore:
-#      - ".github/**"
-#      - "README.md"
-#      - "LICENSE"
-#      - ".gitignore"
+#      - "main"
+#    paths:
+#      - "src/**"
+#  #   一天运行两次
 #  schedule:
-#    - cron: '25 12 */7 * *'
+#    - cron: '25 */12 * * *'
 
 jobs:
   build:
@@ -35,7 +33,6 @@ jobs:
       # ============================================
       - name: Install dependencies
         run: |
-          sudo apt install -y ffmpeg
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Scaffold Install
